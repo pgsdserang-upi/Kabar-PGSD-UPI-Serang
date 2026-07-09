@@ -5,7 +5,7 @@ description: "Kanal berita, kegiatan, dan pengumuman Program Studi PGSD, Univers
 # ---------------------------------------------------------------
 # PENTING — baseurl
 # Jika situs ini di-deploy sebagai "project page" (alamatnya
-#   https://dika-81.github.io/NAMA-REPO/ ), isi baseurl dengan
+#   https://pgsdserang-upi.github.io/Kabar-PGSD-UPI-Serang/ ), isi baseurl dengan
 #   garis miring + nama repo. Contoh, jika repo bernama "pgsd-berita":
 #       baseurl: "/pgsd-berita"
 # Jika memakai domain sendiri atau "user page", biarkan kosong "".
