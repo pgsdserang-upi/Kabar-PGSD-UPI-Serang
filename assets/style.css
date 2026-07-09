@@ -1,0 +1,106 @@
+/* ====== Portal Berita PGSD UPI Kampus Serang ====== */
+:root{
+  --biru:#0a3d62;          /* warna utama (selaras dengan clone) */
+  --biru-tua:#082f4b;
+  --aksen:#a6631b;         /* aksen hangat untuk tanggal & kategori */
+  --tinta:#1c2126;         /* teks utama */
+  --redup:#5b6470;         /* teks sekunder */
+  --garis:#e6e8ec;         /* garis tipis */
+  --panel:#f6f7f9;         /* latar panel lembut */
+  --putih:#ffffff;
+  --lebar:820px;
+}
+
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{
+  margin:0;
+  background:var(--putih);
+  color:var(--tinta);
+  font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+  font-size:17px;
+  line-height:1.65;
+}
+.wrap{max-width:var(--lebar);margin:0 auto;padding:0 20px;}
+a{color:var(--biru);}
+img{max-width:100%;height:auto;display:block;}
+
+/* --- Masthead --- */
+.site-masthead{background:var(--biru);color:#fff;}
+.masthead-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:16px;padding-bottom:16px;}
+.brand{display:flex;flex-direction:column;line-height:1.1;text-decoration:none;color:#fff;}
+.brand-main{font-family:'Newsreader',Georgia,serif;font-weight:700;font-size:1.32rem;letter-spacing:.2px;}
+.brand-sub{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;opacity:.8;margin-top:3px;}
+.site-nav a{color:#fff;text-decoration:none;font-weight:500;font-size:.92rem;padding:8px 12px;border-radius:6px;}
+.site-nav a:hover{background:rgba(255,255,255,.16);}
+
+/* --- Intro (halaman depan) --- */
+.site-main{padding-top:44px;padding-bottom:64px;}
+.eyebrow{margin:0 0 10px;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--aksen);font-weight:600;}
+.page-title{font-family:'Newsreader',Georgia,serif;font-weight:700;font-size:2.5rem;line-height:1.1;margin:0 0 12px;color:var(--biru-tua);}
+.lede{font-size:1.12rem;color:var(--redup);margin:0 0 8px;max-width:60ch;}
+
+/* --- Daftar berita --- */
+.news-list{list-style:none;margin:36px 0 0;padding:0;}
+.news-item{display:grid;grid-template-columns:200px 1fr;gap:22px;padding:26px 0;border-top:1px solid var(--garis);}
+.news-item:first-child{border-top:none;padding-top:6px;}
+.news-thumb{display:block;overflow:hidden;border-radius:10px;background:var(--panel);}
+.news-thumb img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .3s ease;}
+.news-thumb:hover img{transform:scale(1.04);}
+.news-body{min-width:0;}
+.news-meta{margin:0 0 8px;font-size:.8rem;display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+.news-date{color:var(--aksen);font-weight:600;letter-spacing:.02em;}
+.news-cat{background:var(--panel);color:var(--redup);padding:3px 9px;border-radius:999px;font-weight:500;letter-spacing:.02em;}
+.news-title{font-family:'Newsreader',Georgia,serif;font-weight:600;font-size:1.5rem;line-height:1.22;margin:0 0 8px;}
+.news-title a{color:var(--biru-tua);text-decoration:none;}
+.news-title a:hover{color:var(--biru);text-decoration:underline;text-underline-offset:3px;}
+.news-excerpt{margin:0 0 12px;color:var(--redup);}
+.news-more{font-size:.9rem;font-weight:600;text-decoration:none;}
+.news-more:hover{text-decoration:underline;text-underline-offset:3px;}
+
+/* --- Satu berita --- */
+.post{max-width:720px;}
+.post-eyebrow{margin:0 0 14px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--redup);font-weight:600;}
+.post-eyebrow a{color:var(--aksen);text-decoration:none;}
+.post-eyebrow .sep{opacity:.5;margin:0 2px;}
+.post-title{font-family:'Newsreader',Georgia,serif;font-weight:700;font-size:2.35rem;line-height:1.15;margin:0 0 14px;color:var(--biru-tua);}
+.post-meta{margin:0 0 26px;color:var(--redup);font-size:.92rem;}
+.post-meta .sep{opacity:.5;margin:0 4px;}
+.post-hero{margin:0 0 28px;}
+.post-hero img{width:100%;border-radius:12px;}
+.post-body{font-family:'Newsreader',Georgia,serif;font-size:1.18rem;line-height:1.72;color:#25292e;}
+.post-body p{margin:0 0 1.15em;}
+.post-body h2{font-weight:700;font-size:1.5rem;margin:1.6em 0 .5em;color:var(--biru-tua);}
+.post-body h3{font-weight:600;font-size:1.24rem;margin:1.4em 0 .4em;color:var(--biru-tua);}
+.post-body ul,.post-body ol{margin:0 0 1.15em;padding-left:1.3em;}
+.post-body li{margin:.35em 0;}
+.post-body a{text-underline-offset:3px;}
+.post-body blockquote{margin:1.4em 0;padding:.4em 1.1em;border-left:4px solid var(--biru);background:var(--panel);color:#333;font-style:italic;border-radius:0 8px 8px 0;}
+.post-body img{border-radius:10px;margin:1.2em 0;}
+.post-body code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.9em;background:var(--panel);padding:.1em .4em;border-radius:5px;}
+.post-back{margin-top:44px;padding-top:22px;border-top:1px solid var(--garis);font-weight:600;}
+.post-back a{text-decoration:none;}
+.post-back a:hover{text-decoration:underline;text-underline-offset:3px;}
+
+.empty{margin:40px 0;padding:24px;background:var(--panel);border-radius:12px;color:var(--redup);}
+
+/* --- Footer --- */
+.site-footer{border-top:1px solid var(--garis);padding:28px 0;color:var(--redup);font-size:.86rem;}
+.site-footer p{margin:.2em 0;}
+.footer-note{opacity:.85;}
+
+/* --- Aksesibilitas & responsif --- */
+:focus-visible{outline:3px solid var(--aksen);outline-offset:2px;border-radius:4px;}
+@media (max-width:640px){
+  body{font-size:16px;}
+  .page-title{font-size:2rem;}
+  .post-title{font-size:1.85rem;}
+  .post-body{font-size:1.1rem;}
+  .news-item{grid-template-columns:1fr;gap:12px;}
+  .news-item:first-child{padding-top:6px;}
+  .news-thumb img{aspect-ratio:16/9;}
+  .brand-main{font-size:1.12rem;}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none !important;}
+}

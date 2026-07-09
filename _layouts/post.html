@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="post">
+  <p class="post-eyebrow">
+    <a href="{{ '/' | relative_url }}">Berita</a>{% if page.kategori %} <span class="sep">/</span> {{ page.kategori }}{% endif %}
+  </p>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  <p class="post-meta">
+    <span>{% include tanggal.html date=page.date %}</span>{% if page.penulis %} <span class="sep">·</span> <span>{{ page.penulis }}</span>{% endif %}
+  </p>
+
+  {% if page.gambar %}
+  <figure class="post-hero">
+    <img src="{{ page.gambar | relative_url }}" alt="{{ page.title | escape }}">
+  </figure>
+  {% endif %}
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <p class="post-back"><a href="{{ '/' | relative_url }}">← Kembali ke daftar berita</a></p>
+</article>

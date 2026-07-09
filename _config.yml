@@ -1,0 +1,24 @@
+# ====== Konfigurasi situs berita PGSD UPI Kampus Serang ======
+title: "Berita PGSD UPI Kampus Serang"
+description: "Kanal berita, kegiatan, dan pengumuman Program Studi PGSD, Universitas Pendidikan Indonesia Kampus Serang."
+
+# ---------------------------------------------------------------
+# PENTING — baseurl
+# Jika situs ini di-deploy sebagai "project page" (alamatnya
+#   https://dika-81.github.io/NAMA-REPO/ ), isi baseurl dengan
+#   garis miring + nama repo. Contoh, jika repo bernama "pgsd-berita":
+#       baseurl: "/pgsd-berita"
+# Jika memakai domain sendiri atau "user page", biarkan kosong "".
+# ---------------------------------------------------------------
+baseurl: ""
+url: ""
+
+# Alamat tiap berita jadi rapi: /berita/judul-berita/
+permalink: /berita/:title/
+
+# Berkas panduan tidak ikut ditampilkan sebagai halaman situs
+exclude:
+  - README.md
+  - PANDUAN.md
+  - Gemfile
+  - Gemfile.lock

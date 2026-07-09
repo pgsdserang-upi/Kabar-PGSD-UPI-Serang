@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.layout == 'post' %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-masthead">
+    <div class="wrap masthead-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <span class="brand-main">PGSD UPI Kampus Serang</span>
+        <span class="brand-sub">Portal Berita</span>
+      </a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Beranda</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap site-main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; {{ 'now' | date: "%Y" }} Program Studi PGSD — UPI Kampus Serang.</p>
+      <p class="footer-note">Portal berita statis · dibangun dengan Jekyll &amp; GitHub Pages.</p>
+    </div>
+  </footer>
+</body>
+</html>

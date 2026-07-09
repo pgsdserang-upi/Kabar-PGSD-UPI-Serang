@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section class="intro">
+  <p class="eyebrow">Kanal Resmi</p>
+  <h1 class="page-title">Berita &amp; Pengumuman</h1>
+  <p class="lede">Kabar terbaru dari Program Studi PGSD UPI Kampus Serang — kegiatan akademik, prestasi, dan pengumuman untuk sivitas akademika.</p>
+</section>
+
+{% if site.posts.size == 0 %}
+<p class="empty">Belum ada berita. Tambahkan berita pertama lewat folder <code>_posts</code> — lihat <strong>PANDUAN.md</strong>.</p>
+{% else %}
+<ul class="news-list">
+  {% for post in site.posts %}
+  <li class="news-item">
+    {% if post.gambar %}
+    <a class="news-thumb" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
+      <img src="{{ post.gambar | relative_url }}" alt="" loading="lazy">
+    </a>
+    {% endif %}
+    <div class="news-body">
+      <p class="news-meta">
+        <span class="news-date">{% include tanggal.html date=post.date %}</span>{% if post.kategori %} <span class="news-cat">{{ post.kategori }}</span>{% endif %}
+      </p>
+      <h2 class="news-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="news-excerpt">{{ post.excerpt | strip_html | normalize_whitespace | truncate: 200 }}</p>
+      <a class="news-more" href="{{ post.url | relative_url }}">Baca selengkapnya →</a>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
