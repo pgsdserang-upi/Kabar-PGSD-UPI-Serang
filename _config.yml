@@ -10,8 +10,8 @@ description: "Kanal berita, kegiatan, dan pengumuman Program Studi PGSD, Univers
 #       baseurl: "/pgsd-berita"
 # Jika memakai domain sendiri atau "user page", biarkan kosong "".
 # ---------------------------------------------------------------
-baseurl: ""
-url: ""
+baseurl: "/Kabar-PGSD-UPI-Serang"
+url: "https://pgsdserang-upi.github.io"
 
 # Alamat tiap berita jadi rapi: /berita/judul-berita/
 permalink: /berita/:title/
