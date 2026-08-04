@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Dosen PGSD UPI Kampus Serang Tingkatkan Produktivitas Riset melalui Pelatihan Zotero dan NotebookLM"
@@ -7,6 +6,7 @@ penulis: "Tim Redaksi PGSD UPI Kampus Serang"
 kategori: "Pengembangan Dosen"
 gambar: "/gambar/pelatihan-zotero-notebooklm-1.jpeg"
 ---
+
 
 Pada hari ini, **Selasa, 4 Agustus 2026**, Program Studi Pendidikan Guru Sekolah Dasar (PGSD) UPI Kampus Serang menyelenggarakan pelatihan pemanfaatan **Zotero** dan **NotebookLM** bagi para dosen. Kegiatan ini menjadi bagian dari upaya program studi untuk meningkatkan produktivitas riset sekaligus mendukung penulisan karya ilmiah yang lebih terstruktur, efektif, dan berbasis sumber tepercaya.
 
