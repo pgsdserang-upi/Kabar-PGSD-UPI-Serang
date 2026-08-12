@@ -1,20 +1,15 @@
 ---
 layout: post
-title: "Dosen PGSD UPI Kampus Serang Tingkatkan Produktivitas Riset melalui Pelatihan Zotero dan NotebookLM"
-date: 2026-08-04 17:00:00 +0700
+title: "Selamat kepada Dr. Muhammad Hanif, M.Pd. — Resmi Raih Gelar Doktor"
+date: 2026-08-12 18:51:00 +0700
 penulis: "Tim Redaksi PGSD UPI Kampus Serang"
 kategori: "Pengembangan Dosen"
-gambar: "/gambar/pelatihan-zotero-notebooklm-1.jpeg"
+gambar: ""
 ---
 
 
-Pada hari ini, **Selasa, 4 Agustus 2026**, Program Studi Pendidikan Guru Sekolah Dasar (PGSD) UPI Kampus Serang menyelenggarakan pelatihan pemanfaatan **Zotero** dan **NotebookLM** bagi para dosen. Kegiatan ini menjadi bagian dari upaya program studi untuk meningkatkan produktivitas riset sekaligus mendukung penulisan karya ilmiah yang lebih terstruktur, efektif, dan berbasis sumber tepercaya.
+Kabar membanggakan datang dari keluarga besar Program Studi PGSD UPI Kampus Serang. Muhammad Hanif, M.Pd., kini resmi menyandang gelar doktor usai menyelesaikan studi S3 di Universitas Negeri Surabaya (UNESA). Momen kelulusan yang berlangsung di Graha UNESA ini diabadikan bersama keluarga tercinta, menjadi penutup manis dari perjalanan panjang menempuh pendidikan doktoral.
 
-Dalam pelatihan tersebut, para dosen mempelajari pemanfaatan Zotero untuk mengelola referensi, menyusun sitasi, serta menata daftar pustaka secara sistematis. Peserta juga diperkenalkan pada penggunaan NotebookLM untuk mengorganisasi bahan bacaan, menemukan informasi penting, merangkum berbagai sumber, dan membantu pengembangan gagasan penelitian secara lebih efisien.
+Pencapaian ini tentu menjadi kebanggaan bagi PGSD UPI Kampus Serang. Bertambahnya dosen bergelar doktor diharapkan semakin memperkuat kualitas keilmuan, penelitian, dan pembimbingan mahasiswa di lingkungan program studi.
 
-![Para dosen PGSD UPI Kampus Serang mengikuti pelatihan Zotero dan NotebookLM]({{ '/gambar/pelatihan-zotero-notebooklm-2.jpeg' | relative_url }})
-
-Pelatihan berlangsung interaktif melalui pemaparan materi, praktik langsung, dan diskusi. Para peserta menggunakan perangkat masing-masing untuk mencoba berbagai fitur yang dapat diintegrasikan ke dalam alur kerja riset, mulai dari penghimpunan literatur hingga penyusunan naskah akademik.
-
-Melalui kegiatan ini, PGSD UPI Kampus Serang berharap para dosen semakin mampu memanfaatkan teknologi digital secara tepat guna untuk memperkuat budaya riset, meningkatkan mutu publikasi ilmiah, dan menghasilkan karya akademik yang memberikan kontribusi bagi pengembangan pendidikan dasar.
-
+Atas nama keluarga besar PGSD UPI Kampus Serang, kami mengucapkan selamat dan sukses kepada Dr. Muhammad Hanif, M.Pd. Selamat datang dan selamat bergabung kembali bertugas — semoga ilmu yang diperoleh membawa berkah dan kemajuan bagi program studi.
