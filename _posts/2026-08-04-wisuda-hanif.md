@@ -4,7 +4,7 @@ title: "Selamat kepada Dr. Muhammad Hanif, M.Pd. — Resmi Raih Gelar Doktor"
 date: 2026-08-12 18:51:00 +0700
 penulis: "Tim Redaksi PGSD UPI Kampus Serang"
 kategori: "Pengembangan Dosen"
-gambar: ""
+gambar: "/gambar/hanif.jpeg"
 ---
 
 
