@@ -17,7 +17,15 @@ layout: default
     <img src="{{ page.gambar | relative_url }}" alt="{{ page.title | escape }}">
   </figure>
   {% endif %}
-
+  {% if page.galeri %}
+  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:15px; margin:20px 0;">
+  {% for foto in page.galeri %}
+    <img src="{{ foto | relative_url }}"
+         alt="{{ page.title | escape }}"
+         style="width:100%; height:auto; border-radius:8px;">
+  {% endfor %}
+  </div>
+  {% endif %}
   <div class="post-body">
     {{ content }}
   </div>
